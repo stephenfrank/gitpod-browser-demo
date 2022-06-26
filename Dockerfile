@@ -1,5 +1,5 @@
 FROM gitpod/workspace-full-vnc:latest
 
 # install dependencies
-RUN apt-get update \
-    && apt-get install -y firefox matchbox twm
+RUN sudo apt-get update \
+    && sudo apt-get install -y firefox matchbox twm
